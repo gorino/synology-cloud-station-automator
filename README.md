@@ -9,6 +9,11 @@ $ chmod +x csd_get.sh
 $ ./csd_get.sh
 ```
 
+Then, on setup completed run the following to clean.
+```
+$ rm -R ~/tmp-setup
+```
+
 ##  Setup Terminal
 Next step is to restore the terminal app (iTerm2) and the shell (Oh My Zsh). To do so run the followings.
 ```
