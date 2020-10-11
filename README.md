@@ -28,8 +28,7 @@ $ ./install_apps
 ```
 
 ## Configure Cyberduck
-* Double-click on `gorino-websites.duck`
-* Double-click on `gdi-dev.duck`
+* Drag'n'drop `gorino-websites.duck` and `gdi-dev.duck` in Cyberduck bookmarks view.
 
 
 ## Adjust Dock Icons Order
