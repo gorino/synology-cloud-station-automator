@@ -1,14 +1,12 @@
 This file aims to help on setting up a new Mac for work.
 
 ## Clone from NAS
-Open the standard MacOs Terminal app and run the following command to install Synology Cloud Drive.
+Open the standard MacOs Terminal app and run the followings to install Synology Cloud Drive.
 ```
-$ curl https://global.download.synology.com/download/Tools/CloudStationDrive/4.3.3-4469/Mac/Installer/synology-cloud-station-drive-4469.dmg -o cloudstation.dmg
-$ hdiutil attach cloudstation.dmg
-$ sudo installer -pkg /Volumes/Synology\ Cloud\ Station\ Drive -target "/"
-$ hdiutil detach /Volumes/Synology\ Cloud\ Station\ Drive/
-$ rm cloudstation.dmg
-$ open /Applications/Synology\ Cloud\ Station.app
+$ git clone https://github.com/gorino/macos-config.git ~/tmp-setup
+$ cd ~/tmp-setup
+$ chmod +x csd_get.sh
+$ ./csd_get.sh
 ```
 
 ##  Setup Terminal
@@ -17,7 +15,7 @@ Next step is to restore the terminal app (iTerm2) and the shell (Oh My Zsh). To 
 $ cd ~/Files/Code
 $ ./install_terminal
 ```
-Then import iterm_Profile_OhMyZsh.json via iTerm2 > Preferences and quit iTerm to make changes effective.
+Then import `iterm_Profile_OhMyZsh.json` via iTerm2 > Preferences and quit iTerm to make changes effective.
 
 
 ## Setup Apps
