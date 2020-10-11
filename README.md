@@ -27,9 +27,6 @@ $ cd ~/Files/Code
 $ ./install_apps
 ```
 
-## Configure Cyberduck
-* Drag'n'drop `gorino-websites.duck` and `gdi-dev.duck` in Cyberduck bookmarks view.
-
 
 ## Adjust Dock Icons Order
 * Finder
