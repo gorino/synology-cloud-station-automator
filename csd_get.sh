@@ -7,7 +7,10 @@ sudo installer -pkg /Volumes/Synology\ Cloud\ Station\ Drive -target "/"
 
 # Clean Stuff
 hdiutil detach /Volumes/Synology\ Cloud\ Station\ Drive/
-rm cloudstation.dmg
 
 # Open Cloud Station to start configuration and sync
 open /Applications/Synology\ Cloud\ Station.app
+
+# Clean up: delete config folder
+rm cloudstation.dmg
+rm -R macos-config
