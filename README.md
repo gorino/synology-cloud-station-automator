@@ -3,10 +3,7 @@ This file aims to help on setting up a new Mac for work.
 ## Clone from NAS
 Open the standard MacOs Terminal app and run the followings to install Synology Cloud Drive.
 ```
-$ git clone https://github.com/gorino/macos-config.git ~/tmp-setup
-$ cd ~/tmp-setup
-$ chmod +x csd_get.sh
-$ ./csd_get.sh
+$ git clone https://github.com/gorino/macos-config.git | macos-config/csd_get.sh
 ```
 
 Then, on setup completed run the following to clean.
@@ -29,18 +26,3 @@ Once everything is configured it's time to install most used MacOs apps. To do s
 $ cd ~/Files/Code
 $ ./install_apps
 ```
-
-
-## Adjust Dock Icons Order
-* Finder
-* Chrome
-* Outlook
-* Slack
-* Teams
-* 1Password
-* MacOs Notes
-* SublimeText
-* iTerm2
-* Cyberduck
-* Gmail Chrome Shortcut
-* MacOs Settings
