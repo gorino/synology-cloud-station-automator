@@ -1,5 +1,3 @@
-This file aims to help on setting up a new Mac for work.
-
 ## Clone Software Needed to sync from NAS
 Open the standard MacOs Terminal app and run the followings to install Synology Cloud Drive.
 ```
