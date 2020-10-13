@@ -25,10 +25,40 @@ The script will install:
 * dockutil
 * mas
 * Fonts: Meslo LG Nerd, Hack Nerd
-* Symlink
+* Symlink: zshrc, p10k.zsh, ssh/ (assuming they are into ~/Files/Code)
 
 ## Setup Apps
-Once everything is configured it's time to install most used MacOs apps. To do so run the followings.
+After installing the terminal config, it's time to install most used MacOs apps. To do so run the followings.
 ```
 $ ~/Files/Code/install_apps
 ```
+
+The script will install (with position in the dock):
+* Google Chrome (2)
+* Microsoft Teams (4)
+* SublimeText (7)
+* Adobe Creative Cloud
+* AppCleaner
+* DBNgin
+* Postman
+* Tableau 2020.2
+* TunnelBlick
+* YemuZip
+* Virtualbox
+* Virtualbox Extension Pack
+* Disk Inventory X
+* Cyberduck (9)
+* VLC
+* Transimission
+* 1Password (5)
+* Outlook (3)
+* Excel
+* Word
+* PowerPoint
+* Slack (4)
+* The Unarchiver
+* Magnet
+* Pocket
+* Trello
+
+The dock will also have Finder (1), iTerm (8), "Work", Temp and Download folders before the Trash.
