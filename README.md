@@ -1,7 +1,7 @@
 ## Clone Software Needed to sync from NAS
 Open the standard MacOs Terminal app and run the following to setup your MacBook Pro.
 ```
-$ git clone https://github.com/gorino/macos-config.git ~/macos-config; ~/macos-config/run.sh
+$ git clone https://github.com/gorino/macos-config.git ~/macos-config/; ~/macos-config/run.sh
 ```
 The script will download Synology Cloud Station 4.3.3-4469, install the pkg and open the UI.
 The sync should be configured to `~/Files` local folder.
