@@ -33,10 +33,10 @@ Once the sync has completed the script `~/Files/Code/TerminalSettings/install` w
 7) Notes (default, not installed)
 8) SublimeText 3
 9) iTerm 2
----
-1) Gucci
-2) Temp
-3) Downloads
+10) Gucci (folder)
+11) Temp (folder)
+12) Downloads (folder)
+13) Trash (default, not installed)
 
 ### Other Apps Installed
 * Adobe Creative Cloud
