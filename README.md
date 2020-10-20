@@ -23,7 +23,7 @@ This script shouldn't be public as I am not a developer and, most important, I a
 Quick and dirty.
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/gorino/macos-config/main/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/gorino/synology-cloud-station-automator/main/install.sh)"
 ```
 
 The script will do the followings.
