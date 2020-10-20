@@ -1,11 +1,11 @@
 #!/bin/sh
 #
 # This script should be run via curl:
-#	sh -c "$(curl -fsSL https://raw.githubusercontent.com/gorino/macos-config/main/install.sh"
+#	sh -c "$(curl -fsSL https://raw.githubusercontent.com/gorino/synology-cloud-station-automator/main/install.sh)"
 #
 # You can tweak the install behavior by setting variables when running the script. Respects
 # the following environment variables:
-#	MY_CUSTOM_CMD	- path to the script to run once the Cloud Drive sync has completed
+#	MY_CUSTOM_CMD	- path to the script to run once the Synology Cloud Station sync has completed
 #
 
 #############
@@ -16,7 +16,7 @@
 CLOUD_STATION_DB_FILE=~/.CloudStation/data/db/file-status.sqlite
 
 # Temp files paths
-CLOUD_STATION_TMP_DMG_FOLDER=~/macos-config
+CLOUD_STATION_TMP_DMG_FOLDER=~/.CloudStationAutomator
 CLOUD_STATION_TMP_DMG=${CLOUD_STATION_TMP_DMG_FOLDER}/cloudstation.dmg
 
 # Cloud Station Volume Path
