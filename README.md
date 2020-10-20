@@ -1,8 +1,10 @@
+# Synology Cloud Station Automator
+
 Let's say you have a new MacBook Pro and you want to restore your stuff without using backups, Time Machine or other dirty stuff.
 
 And let's also say you have a Synology NAS with your files, scripts, repos managed through Cloud Station Drive.
 
-Well ... run **Bash Cloud Station Automator** for Synology Cloud Station and you'll have all back on your Mac.
+Well ... run **Synology Cloud Station Automator** and you'll have all back on your Mac.
 
 **Disclaimer**
 
