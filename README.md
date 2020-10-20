@@ -1,61 +1,54 @@
-## Clone Software Needed to sync from NAS
-Open the standard MacOs Terminal app and run the following to setup your MacBook Pro.
+Let's say you have a new MacBook Pro and you want to restore your stuff without using backups, Time Machine or other dirty stuff.
+
+And let's also say you have a Synology NAS with your files, scripts, repos managed through Cloud Station Drive.
+
+Well ... run **Bash Cloud Station Automator** for Synology Cloud Station and you'll have all back on your Mac.
+
+**Disclaimer**
+This script shouldn't be public as I am not a developer and, most important, I am NOT a bash developer. I like coding, I did it for fun and it's useful for me to quick download it when needed. Please inspect the code before run because **probably it's not stable**! I don't know if I'll update this script in the future.
+
+## Getting Started
+
+### Prerequisites
+
+- A Mac with MacOs (I tested only on Catalina 10.15.7)
+- `curl` should be installed
+- `git` should be installed
+
+### Installation
+
+Quick and dirty.
+
 ```
-$ git clone https://github.com/gorino/macos-config.git ~/macos-config/; ~/macos-config/run.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/gorino/macos-config/main/install.sh"
 ```
-The script will download Synology Cloud Station 4.3.3-4469, install the pkg and open the UI.
-The sync should be configured to `~/Files` local folder.
-Once the sync has completed the script `~/Files/Code/TerminalSettings/install` will be run.
 
-### What will be installed
-* Oh My Zsh with Autosuggestion, Completions, Powerlevel10k, Meslo LG Nerd Font
-* Homebrew
-* iTerm2 with an optimized custom profile (color, keys, etc)
-* Python3
-* Virtualenv
-* Google Cloud SDK
-* Symlynk .bigqueryrc, .config/, .ssh/
-* 1Password CLI
-* neofetch
-* colorls
-* dockutil
-* mas
+The script will do the followings.
 
-### Dock
-1) Finder (default, not installed)
-2) Google Chrome
-3) Microsoft Outlook
-4) Fantastical
-5) Todoist
-6) Slack
-7) Microsoft Teams
-8) 1Password
-7) Notes (default, not installed)
-8) SublimeText 3
-9) iTerm 2
-10) Gucci (folder)
-11) Temp (folder)
-12) Downloads (folder)
-13) Trash (default, not installed)
+1) Download Synology Cloud Station 4.3.3-4469
+2) Install the package and open the UI
+3) Wait for Cloud Station sync to complete
+4) Remove all temporary files
+5) Run the script at `~/Files/Code/TerminalSettings/install` (can be customized)
 
-### Other Apps Installed
-* Adobe Creative Cloud
-* AppCleaner
-* DBNgin
-* Postman
-* Tableau 2020.2
-* TunnelBlick
-* YemuZip
-* Virtualbox
-* Virtualbox Extension Pack
-* Disk Inventory X
-* Cyberduck
-* VLC
-* Transimission
-* Microsoft Excel
-* Microsoft Word
-* Microsoft PowerPoint
-* The Unarchiver
-* Magnet
-* Pocket
-* Trello
+### Configuration
+
+You can tweak the install behavior by setting one of the following variables before running the script.
+
+| Variable        | Description                                                            |
+|:----------------|:-----------------------------------------------------------------------|
+| `MY_CUSTOM_CMD` | Path to commannd to run once Cloud Station sync has completed.         |
+
+## Wishlist
+
+Something I would like to dev in the future.
+
+* Add colors to prompts
+
+## Contributors
+
+I don't maintain this repository regulary so feel free to grab it, change it, rename it, reinvent it or whatever you want to do.
+
+## License
+
+Cloud Station Automator is released under the [MIT license](LICENSE.txt).
