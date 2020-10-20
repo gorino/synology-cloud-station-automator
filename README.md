@@ -5,6 +5,7 @@ And let's also say you have a Synology NAS with your files, scripts, repos manag
 Well ... run **Bash Cloud Station Automator** for Synology Cloud Station and you'll have all back on your Mac.
 
 **Disclaimer**
+
 This script shouldn't be public as I am not a developer and, most important, I am NOT a bash developer. I like coding, I did it for fun and it's useful for me to quick download it when needed. Please inspect the code before run because **probably it's not stable**! I don't know if I'll update this script in the future.
 
 ## Getting Started
@@ -20,7 +21,7 @@ This script shouldn't be public as I am not a developer and, most important, I a
 Quick and dirty.
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/gorino/macos-config/main/install.sh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/gorino/macos-config/main/install.sh)"
 ```
 
 The script will do the followings.
