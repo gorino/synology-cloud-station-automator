@@ -90,6 +90,7 @@ poll_sync() {
 # Download from Cloud Station URL
 if [[ ! -f ${CLOUD_STATION_TMP_DMG} ]]; then
 	echo "Download Synology Cloud Station Drive to ${CLOUD_STATION_TMP_DMG}"
+	mkdir ${CLOUD_STATION_TMP_DMG_FOLDER}
 	curl ${CLOUD_STATION_DOWNLOAD_URL} -o ${CLOUD_STATION_TMP_DMG}
 else
 	echo "Skip Download ${CLOUD_STATION_DOWNLOAD_URL}"
