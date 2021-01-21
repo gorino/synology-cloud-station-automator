@@ -100,7 +100,7 @@ fi
 if [[ -f ${CLOUD_STATION_TMP_DMG} ]]; then
 	hdiutil attach ${CLOUD_STATION_TMP_DMG}
 	sudo installer -pkg ${CLOUD_STATION_VOLUME_PATH} -target "/"
-	hdiutil detach ${CLOUD_STATION_VOLUME_PATH}/
+	hdiutil detach ${CLOUD_STATION_VOLUME_PATH}
 	rm -R ${CLOUD_STATION_TMP_DMG_FOLDER}
 else
 	echo "Not Found: ${CLOUD_STATION_TMP_DMG}"
