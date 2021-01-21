@@ -27,7 +27,7 @@ CLOUD_STATION_APP=/Applications/Synology\ Cloud\ Station.app
 
 # Cloud Station dmg file download URL
 # Can be updated to upgrade to a new version
-CLOUD_STATION_DOWNLOAD_URL=https://global.download.synology.com/download/Tools/CloudStationDrive/4.3.3-4469/Mac/Installer/synology-cloud-station-drive-4469.dmg
+CLOUD_STATION_DOWNLOAD_URL=https://global.download.synology.com/download/Utility/CloudStationDrive/4.3.3-4469/Mac/Installer/synology-cloud-station-drive-4469.dmg
 
 
 
