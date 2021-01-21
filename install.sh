@@ -116,7 +116,7 @@ else
 	echo "Not Found: ${CLOUD_STATION_APP}"
 	echo "This is not expected. Exit"
 	exit 1
-do
+fi
 
 # Run the script specified on MY_CUSTOM_CMD var
 # or run the script at default location
