@@ -20,10 +20,10 @@ CLOUD_STATION_TMP_DMG_FOLDER=~/.CloudStationAutomator
 CLOUD_STATION_TMP_DMG=${CLOUD_STATION_TMP_DMG_FOLDER}/cloudstation.dmg
 
 # Cloud Station Volume Path
-CLOUD_STATION_VOLUME_PATH="/Volumes/Synology Cloud Station Drive"
+CLOUD_STATION_VOLUME_PATH="/Volumes/Synology\ Cloud\ Station\ Drive"
 
 # Cloud Station App Path on MacOs
-CLOUD_STATION_APP="/Applications/Synology Cloud Station.app"
+CLOUD_STATION_APP="/Applications/Synology\ Cloud\ Station.app"
 
 # Cloud Station dmg file download URL
 # Can be updated to upgrade to a new version
