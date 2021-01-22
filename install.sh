@@ -24,7 +24,7 @@ CLOUD_STATION_VOLUME_PATH="/Volumes/Synology Cloud Station Drive"
 CLOUD_STATION_PKG="${CLOUD_STATION_VOLUME_PATH}/Install Cloud Station Drive.pkg"
 
 # Cloud Station App Path on MacOs
-CLOUD_STATION_APP="/Applications/Synology\ Cloud\ Station.app"
+CLOUD_STATION_APP="/Applications/Synology Cloud Station.app"
 
 # Cloud Station dmg file download URL
 # Can be updated to upgrade to a new version
